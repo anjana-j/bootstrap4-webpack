@@ -1,0 +1,41 @@
+{
+    "name": "bs4-webpack",
+    "version": "1.0.0",
+    "description": "*",
+    "main": "app.js",
+    "scripts": {
+        "start": "npm run clean && webpack && npm run dev",
+        "dev": "webpack-dev-server --progress --colors",
+        "prod": "npm run clean && webpack -p",
+        "clean": "rimraf ./dist/*"
+    },
+    "author": "Anjana J",
+    "license": "ISC",
+    "devDependencies": {
+        "autoprefixer": "*",
+        "bootstrap": "^4.0.0-beta",
+        "browser-sync": "*",
+        "browser-sync-webpack-plugin": "*",
+        "css-loader": "*",
+        "exports-loader": "*",
+        "expose-loader": "*",
+        "extract-text-webpack-plugin": "*",
+        "file-loader": "*",
+        "font-awesome": "*",
+        "html-loader": "*",
+        "html-webpack-plugin": "*",
+        "imports-loader": "*",
+        "jquery": "*",
+        "node-sass": "*",
+        "popper.js": "*",
+        "postcss-loader": "*",
+        "resolve-url-loader": "*",
+        "rimraf": "*",
+        "sass-loader": "*",
+        "style-loader": "*",
+        "tooltip.js": "*",
+        "url-loader": "*",
+        "webpack": "*",
+        "webpack-dev-server": "*"
+    }
+}
